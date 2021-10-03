@@ -49,23 +49,19 @@ class Body extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: <Widget>[
                             Center(
-                              child: Expanded(
-                                child: WelcomScreencard(
-                                    image: "assets/images/star_image.png",
-                                    text1: "Best Industry",
-                                    text2: "Leaders"),
-                              ),
+                              child: WelcomScreencard(
+                                  image: "assets/images/star_image.png",
+                                  text1: "Best Industry",
+                                  text2: "Leaders"),
                             ),
                             SizedBox(
                               width: 30,
                             ),
                             Center(
-                              child: Expanded(
-                                child: WelcomScreencard(
-                                    image: "assets/images/book_stack.png",
-                                    text1: "High School",
-                                    text2: "Diploma"),
-                              ),
+                              child: WelcomScreencard(
+                                  image: "assets/images/book_stack.png",
+                                  text1: "High School",
+                                  text2: "Diploma"),
                             ),
                           ],
                         ),

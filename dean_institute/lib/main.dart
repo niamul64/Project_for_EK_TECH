@@ -19,7 +19,6 @@ class MyApp extends StatelessWidget {
 
       ),
 
-
       initialRoute: WelcomeScreen.id,
       routes: {
         WelcomeScreen.id: (context) => WelcomeScreen(),
