@@ -1,13 +1,19 @@
 import 'package:flutter/material.dart';
 
-class RegistrationPage extends StatefulWidget {
-  const RegistrationPage({Key? key}) : super(key: key);
+class RegistrationScreen extends StatefulWidget {
+  const RegistrationScreen({Key? key}) : super(key: key);
+  static const String id = 'registrationScreen';
 
   @override
-  _RegistrationPageState createState() => _RegistrationPageState();
+  _RegistrationScreenState createState() => _RegistrationScreenState();
 }
 
-class _RegistrationPageState extends State<RegistrationPage> {
+
+
+
+
+
+class _RegistrationScreenState extends State<RegistrationScreen> {
   @override
   Widget build(BuildContext context) {
     return Container();
