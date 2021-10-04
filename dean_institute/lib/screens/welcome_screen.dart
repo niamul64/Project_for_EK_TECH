@@ -20,7 +20,8 @@ class _WelcomeScreenState extends State<WelcomeScreen> with TickerProviderStateM
   controller.forward();
   controller.addListener(() {
     setState(() {
-      if ((controller.value)==1.0) {
+      print(controller.value);
+      if ((controller.value)>=1.0) {
         Navigator.pushNamed(context, LoginScreen.id);
       }
     });
